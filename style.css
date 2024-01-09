@@ -8,22 +8,22 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    position: relative; 
-   
+    position: relative;
+
 }
 
 .overlay {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-  
+
     padding: 20px;
     box-sizing: border-box;
 }
@@ -31,88 +31,95 @@
 .overlay p {
     font-size: 28px;
     margin: 0;
-    color:red;
-   
+    color: red;
+
 }
 
 .overlay h1 {
     font-size: 70px;
     margin: 10px 0;
-    color:red;
+    color: red;
 }
-.off-title{
-    color: #F00;
-text-align: center;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.off-description{
-    color: #F00;
-text-align: center;
 
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding-top: 50px;
+.off-title {
+    color: #F00;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.off-subdescription{
+
+.off-description {
+    color: #F00;
+    text-align: center;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 50px;
+}
+
+.off-subdescription {
     color: #070211;
-text-align: center;
+    text-align: center;
 
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-top: 10px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 10px;
 }
-.new-year-img{
+
+.new-year-img {
     justify-content: center;
     padding: 50px 450px;
 }
-.midnight-party{
+
+.midnight-party {
     padding-left: 200px;
     padding-top: 100px;
 }
+
 .midnight-party-text {
     position: absolute;
     top: 230%;
     left: 15%;
     color: #fff;
-    text-align: left; 
-    
+    text-align: left;
+
 }
 
 .midnight-party-text h2 {
-    font-size: 64px; 
-    margin-bottom: 10px; 
+    font-size: 64px;
+    margin-bottom: 10px;
     font-weight: 900;
 }
 
 .midnight-party-text p {
-    font-size: 18px; 
+    font-size: 18px;
     margin-bottom: 20px;
     font-weight: 400;
     width: 50%;
 }
 
 .midnight-party-text button {
-    background-color: #49494999; 
-    color: #fff; 
-    padding: 30px 20px; 
+    background-color: #49494999;
+    color: #fff;
+    padding: 30px 20px;
     border: none;
     cursor: pointer;
     font-weight: 900;
     font-size: larger;
 }
+
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
-    background: linear-gradient(to bottom, pink, white); 
+    background: linear-gradient(to bottom, pink, white);
     border-radius: 10px;
     text-align: center;
     font-size: 32px;
@@ -129,37 +136,41 @@ padding-top: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-   
+
 }
 
 .join-button:hover {
     background-image: linear-gradient(90deg, #b90000 0%, #ff6a1a 100%);
 }
-.circle-container{
+
+.circle-container {
     display: flex;
 }
-.circle{
-  
+
+.circle {
+
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
-.circle img{
+
+.circle img {
     width: 250;
     height: 250;
     border-radius: 50%;
-    border: 15px solid #F00; 
+    border: 15px solid #F00;
     padding: 20px;
 
 }
+
 .offer-column-left {
     position: absolute;
     left: 100px;
-    top: 360%;
+    top: 350%;
     padding: 20px;
-    text-align: left; 
-    max-width: 300px; 
+    text-align: left;
+    max-width: 300px;
     box-sizing: border-box;
 }
 
@@ -180,35 +191,38 @@ padding-top: 10px;
     margin-bottom: 0;
     color: #070211;
 }
+
 .offer-column-right {
     position: absolute;
     right: 100px;
-    top: 360%;
+    top: 340%;
     padding: 20px;
-    text-align:right; 
-    max-width: 300px; 
+    text-align: right;
+    max-width: 300px;
     box-sizing: border-box;
 }
-.year{
+
+.year {
     color: #F00;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-padding: 0;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 0;
 }
+
 .function-container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
     text-align: center;
-   
+
 }
 
 h1 {
     font-size: 18px;
     margin-bottom: 10px;
-  
+
 }
 
 h2 {
@@ -219,4 +233,66 @@ h2 {
 p {
     font-size: 16px;
     line-height: 1.5;
+}
+
+.portfolio-container {
+    max-width: 600px;
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.portfolio {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.img-container {
+    padding: 150px;
+}
+
+.sub-p {
+    font-size: 16px;
+
+}
+
+.subscribe-container {
+    max-width: 600px;
+    padding: 40px 300px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin: auto;
+
+}
+
+.subscribe-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 50px 50px 50px 50px;
+    width: 300px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 50px 50px 50px 50px;
+    background: #F00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
 }
