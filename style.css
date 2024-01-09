@@ -44,7 +44,7 @@
 .off-title {
     color: #F00;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
@@ -287,12 +287,58 @@ input {
     width: 300px;
 }
 
-button {
+.button-mail {
     padding: 10px;
     border-radius: 50px 50px 50px 50px;
     background: #F00;
+    background-image: linear-gradient(90deg, #ff6a1a 0%, #b90000 100%);
     color: #fff;
     border: none;
     cursor: pointer;
+}
+.button-mail:hover{
+        background-image: linear-gradient(90deg, #b90000 0%, #ff6a1a 100%);
+    }
     
+    
+
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 200px;
+}
+.address {
+    flex: 1;
+    margin-bottom: 20px;
+}
+.contactt {
+    flex: 1;
+    text-align: right;
+   
+    
+}
+.contactt img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.footer-img{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.button-un{
+    background-color:
+    black;margin-top: 240px;
 }
